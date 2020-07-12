@@ -42,7 +42,7 @@ make
 
 ```cpp
 #include <iostream>
-#include "eventpp/manager.hpp"
+#include "eventpp/eventpp.hpp"
 
 enum EVENTS {
     MY_EVENT

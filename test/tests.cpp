@@ -1,5 +1,5 @@
 #include "catch.hpp"
-#include "eventpp/manager.hpp"
+#include "eventpp/eventpp.hpp"
 
 enum EVENT {
 	VALUE_EVENT,
