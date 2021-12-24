@@ -52,7 +52,7 @@ enum EVENTS {
 class Listener : public epp::observer {
 public:
     Thing(epp::emitter& em)
-			: epp::observer(em){
+        : epp::observer(em) {
         // hook into MY_EVENT
         hook(MY_EVENT, [this](data d) {
             x = d.get<int>("val");
